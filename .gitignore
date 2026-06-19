@@ -1,0 +1,110 @@
+# =========================
+# 🌍 GLOBAL
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# =========================
+# 🔐 ENV & SECRETS
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# 📦 NODE MODULES
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# 🧠 AI MODELS (VERY IMPORTANT)
+# =========================
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+*.tflite
+*.ckpt
+*.bin
+
+# Large datasets
+data/
+datasets/
+
+# =========================
+# 🐍 PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+
+# =========================
+# 📱 REACT NATIVE / ANDROID
+# =========================
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# React Native cache
+.expo/
+.expo-shared/
+
+# =========================
+# 🍎 iOS
+# =========================
+ios/build/
+ios/Pods/
+*.xcworkspace
+
+# =========================
+# 🧪 TEST / COVERAGE
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# 🚀 BUILD OUTPUTS
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# 🗂 STORAGE FILES
+# =========================
+uploads/
+temp/
+cache/
+
+# =========================
+# 🧾 DATABASE
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# 🔥 LOGS
+# =========================
+logs/
+*.log
+
+# =========================
+# 🧰 IDE FILES
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
